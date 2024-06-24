@@ -16,7 +16,7 @@
 
 <body>
 
-  <div class="container mt-5 col-12 col-md-10">
+  <div class="container mt-5 col-12">
     <div class="card p-0">
       <div class="card-header h5">
         Payment Form Example
@@ -28,36 +28,36 @@
         </div>
         <form>
           <div class="row mt-2">
-            <div class="col-5 col-sm-12">
+            <div class="col-12 col-md-12 col-lg-7 col-xl-5">
               <label for="creditCard" class="form-label">Card #</label><br>
               <input type="text" class="form-control" id="creditCard" placeholder="XXXX-XXXX-XXXX-XXXX">
             </div>
-            <div class="col-3 col-sm-12">
+            <div class="col-12 col-md-6 col-lg-5 col-xl-3">
               <label for="cvc" class="form-label">CVC #</label><br>
               <input type="text" class="form-control" id="cvc" placeholder="0000">
             </div>
-            <div class="col-4 col-sm-12">
+            <div class="col-12 col-md-6 col-lg-12 col-xl-4">
               <label for="amount" class="form-label">Amount</label>
-              <div class="row"><i class="fa-solid fa-dollar-sign pt-2" style="width: 10%;"></i><input type="text"
+              <div class="row"><i class="fa-solid fa-dollar-sign pt-2" style="width: 25px;"></i><input type="text"
                   class="form-control" id="amount" placeholder="Amount" style="width: 88%;"></div>
             </div>
           </div>
           <div class="row mt-2">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <label for="firstName" class="form-label">First Name</label><br>
               <input type="text" class="form-control" id="firstName">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <label for="lastName" class="form-label">Last Name</label><br>
               <input type="text" class="form-control" id="lastName">
             </div>
           </div>
           <div class="row mt-2">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
               <label for="city" class="form-label">City</label><br>
               <input type="text" class="form-control" id="city">
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
               <label for="state" class="form-label">State</label><br>
               <select name="state" id="state" class="form-select">
                 <option value="Escoja una opción">Escoja una opción</option>
@@ -115,7 +115,7 @@
                 <option value="Zaragoza">Zaragoza</option>
               </select>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
               <label for="postalCode" class="form-label">Postal Code</label><br>
               <input type="text" class="form-control" id="postalCode">
             </div>
@@ -123,32 +123,32 @@
           <div class="row mt-2">
             <div class="col-6">
               <label for="paymentMethod" class="form-label">We Accept:</label><br>
-              <div class="row col-8 bg-secondary rounded-2 p-2 ms-0">
-                <div class="col form-check">
+              <div class="row bg-secondary rounded-2 p-2 ms-0 col-10 d-flex justify-content-evenly">
+                <div class="col form-check col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2">
                   <input class="form-check-input" type="radio" name="paymentMethod" id="debitCard" checked>
                   <label class="form-check-label" for="debitCard">
                     <i class="fa-brands fa-cc-visa" style="font-size: xx-large; color: white;"></i>
                   </label>
                 </div>
-                <div class="col form-check">
+                <div class="col form-check col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2">
                   <input class="form-check-input" type="radio" name="paymentMethod" id="creditCard">
                   <label class="form-check-label" for="creditCard">
                     <i class="fa-brands fa-cc-mastercard" style="font-size: xx-large; color: white;"></i>
                   </label>
                 </div>
-                <div class="col form-check">
+                <div class="col form-check col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2">
                   <input class="form-check-input" type="radio" name="paymentMethod" id="dinersClub">
                   <label class="form-check-label" for="dinersClub">
                     <i class="fa-brands fa-cc-diners-club" style="font-size: xx-large; color: white;"></i>
                   </label>
                 </div>
-                <div class="col form-check">
+                <div class="col form-check col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2">
                   <input class="form-check-input" type="radio" name="paymentMethod" id="amex">
                   <label class="form-check-label" for="amex">
                     <i class="fa-brands fa-cc-amex" style="font-size: xx-large; color: white;"></i>
                   </label>
                 </div>
-                <div class="col form-check">
+                <div class="col form-check col-12 col-sm-6 col-md-4 col-lg-2 col-xl-2">
                   <input class="form-check-input" type="radio" name="paymentMethod" id="paypal">
                   <label class="form-check-label" for="paypal">
                     <i class="fa-brands fa-cc-paypal" style="font-size: xx-large; color: white;"></i>
